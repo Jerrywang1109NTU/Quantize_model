@@ -1,3 +1,4 @@
+* To calibrate quantized model, run the following command:
 ```shell
     python quant_test.py --quant_mode calib
 ```
