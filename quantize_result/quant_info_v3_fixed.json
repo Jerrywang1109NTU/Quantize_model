@@ -1,0 +1,1735 @@
+{
+  "DetectionModel::model.0.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 3,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 3,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.2.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.2.m.0.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.2.m.0.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.2.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.2.cv3.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.3.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 9,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.4.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.4.m.0.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.4.m.0.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.4.m.1.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.4.m.1.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.4.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.4.cv3.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.5.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.6.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.6.m.0.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.6.m.0.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.6.m.1.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.6.m.1.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.6.m.2.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.6.m.2.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.6.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.6.cv3.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.7.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 9,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.8.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.8.m.0.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.8.m.0.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.8.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.8.cv3.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.9.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.9.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.10.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.13.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.13.m.0.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.13.m.0.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.13.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.13.cv3.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.14.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.17.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 8,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.17.m.0.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.17.m.0.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.17.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.17.cv3.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 3,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.18.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 9,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.20.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.20.m.0.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.20.m.0.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.20.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.20.cv3.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.21.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 9,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.23.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.23.m.0.cv1.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.23.m.0.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.23.cv2.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.23.cv3.conv": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.24.m.0": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.24.m.1": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 7,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::model.24.m.2": {
+    "weights": [
+      {
+        "name": "weight",
+        "bit_width": 8,
+        "quant_pos": 10,
+        "signed": true
+      }
+    ],
+    "bias": [
+      {
+        "name": "bias",
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true
+      }
+    ]
+  },
+  "DetectionModel::input_0": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Conv[model]/Conv[0]/LeakyReLU[act]/input.5": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 2,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Conv[model]/Conv[1]/LeakyReLU[act]/input.9": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 2,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[2]/Conv[cv1]/LeakyReLU[act]/input.13": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[2]/Sequential[m]/Bottleneck[0]/Conv[cv1]/LeakyReLU[act]/input.17": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[2]/Sequential[m]/Bottleneck[0]/Conv[cv2]/LeakyReLU[act]/6841": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 3,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[2]/input.23": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 3,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[2]/Conv[cv3]/LeakyReLU[act]/input.27": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Conv[model]/Conv[3]/LeakyReLU[act]/input.31": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[4]/Conv[cv1]/LeakyReLU[act]/input.35": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[4]/Sequential[m]/Bottleneck[0]/Conv[cv1]/LeakyReLU[act]/input.39": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[4]/Sequential[m]/Bottleneck[0]/Conv[cv2]/LeakyReLU[act]/6972": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[4]/Sequential[m]/Bottleneck[0]/input.43": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[4]/Sequential[m]/Bottleneck[1]/Conv[cv1]/LeakyReLU[act]/input.47": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[4]/Sequential[m]/Bottleneck[1]/Conv[cv2]/LeakyReLU[act]/7016": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[4]/input.53": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[4]/Conv[cv3]/LeakyReLU[act]/input.57": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Conv[model]/Conv[5]/LeakyReLU[act]/input.61": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/Conv[cv1]/LeakyReLU[act]/input.65": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/Sequential[m]/Bottleneck[0]/Conv[cv1]/LeakyReLU[act]/input.69": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/Sequential[m]/Bottleneck[0]/Conv[cv2]/LeakyReLU[act]/7147": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/Sequential[m]/Bottleneck[0]/input.73": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/Sequential[m]/Bottleneck[1]/Conv[cv1]/LeakyReLU[act]/input.77": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/Sequential[m]/Bottleneck[1]/Conv[cv2]/LeakyReLU[act]/7191": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/Sequential[m]/Bottleneck[1]/input.81": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/Sequential[m]/Bottleneck[2]/Conv[cv1]/LeakyReLU[act]/input.85": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/Sequential[m]/Bottleneck[2]/Conv[cv2]/LeakyReLU[act]/7235": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/input.91": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[6]/Conv[cv3]/LeakyReLU[act]/input.95": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Conv[model]/Conv[7]/LeakyReLU[act]/input.99": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[8]/Conv[cv1]/LeakyReLU[act]/input.103": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[8]/Sequential[m]/Bottleneck[0]/Conv[cv1]/LeakyReLU[act]/input.107": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[8]/Sequential[m]/Bottleneck[0]/Conv[cv2]/LeakyReLU[act]/7366": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[8]/input.113": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[8]/Conv[cv3]/LeakyReLU[act]/input.117": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/SPPF[model]/SPPF[9]/Conv[cv1]/LeakyReLU[act]/7434": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/SPPF[model]/SPPF[9]/MaxPool2d[m]/7448": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/SPPF[model]/SPPF[9]/MaxPool2d[m]/7462": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/SPPF[model]/SPPF[9]/input.121": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/SPPF[model]/SPPF[9]/Conv[cv2]/LeakyReLU[act]/input.125": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 6,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Conv[model]/Conv[10]/LeakyReLU[act]/input.129": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Concat[model]/Concat[12]/input.131": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[13]/Conv[cv1]/LeakyReLU[act]/input.135": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[13]/Sequential[m]/Bottleneck[0]/Conv[cv1]/LeakyReLU[act]/input.139": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[13]/input.145": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[13]/Conv[cv3]/LeakyReLU[act]/input.149": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Conv[model]/Conv[14]/LeakyReLU[act]/input.153": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Concat[model]/Concat[16]/input.155": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[17]/Conv[cv1]/LeakyReLU[act]/input.159": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[17]/Sequential[m]/Bottleneck[0]/Conv[cv1]/LeakyReLU[act]/input.163": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[17]/input.169": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[17]/Conv[cv3]/LeakyReLU[act]/input.173": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 3,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Concat[model]/Concat[19]/input.177": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[20]/Conv[cv1]/LeakyReLU[act]/input.181": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[20]/Sequential[m]/Bottleneck[0]/Conv[cv1]/LeakyReLU[act]/input.185": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[20]/input.191": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[20]/Conv[cv3]/LeakyReLU[act]/input.195": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Concat[model]/Concat[22]/input.199": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[23]/Conv[cv1]/LeakyReLU[act]/input.203": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[23]/Sequential[m]/Bottleneck[0]/Conv[cv1]/LeakyReLU[act]/input.207": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 5,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[23]/input.213": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/C3[model]/C3[23]/Conv[cv3]/LeakyReLU[act]/input": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 4,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Detect[model]/Detect[24]/Conv2d[m]/ModuleList[0]/8057": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 2,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Detect[model]/Detect[24]/Conv2d[m]/ModuleList[1]/8104": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 2,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "DetectionModel::DetectionModel/Detect[model]/Detect[24]/Conv2d[m]/ModuleList[2]/8151": {
+    "activation": [
+      {
+        "bit_width": 8,
+        "quant_pos": 3,
+        "signed": true,
+        "round_mode": "std_round"
+      }
+    ]
+  },
+  "input": {},
+  "fast_finetuned": false,
+  "bias_corrected": true
+}
