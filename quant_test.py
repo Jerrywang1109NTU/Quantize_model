@@ -27,6 +27,7 @@ import random
 import yaml
 import torch
 from tqdm import tqdm
+import numpy as np
 
 # Vitis AI NNDCT API
 from pytorch_nndct.apis import torch_quantizer
@@ -206,39 +207,24 @@ def evaluate(model, val_loader, data_config, detect_layer, conf_thres=0.001, iou
     nl, na, no = detect_layer.nl, detect_layer.na, detect_layer.no
     anchors, stride = detect_layer.anchors, detect_layer.stride
 
-    for img, targets, _, shapes in pbar:
+    for img, targets, path, shapes in pbar:
         img = img.to(device).float() / 255.0
         targets = targets.to(device)
+        image_name = os.path.splitext(os.path.basename(path[0]))[0]
         with torch.no_grad():
             out = model(img)
+            out = [tensor.permute(0, 2, 3, 1, 4).reshape(1, tensor.shape[2], tensor.shape[3], -1).cpu().numpy() for tensor in out]
+            # 解包
             output0, output1, output2 = out
-            print(output0.shape)
-            print(output1.shape)
-            print(output2.shape)
-            
 
-    if not stats:
-        return 0.0, 0.0
+            # 打印形状确认
+            from post_process import eval_sub_process
 
-    tp_list, conf_list, cls_list, tcls_list = zip(*stats)
+            labels_dir = "./data/data_calib/labels/valid/"
 
-    if not any(len(c) for c in conf_list):
-        return 0.0, 0.0
-    
-    # Ensure 'names' is a dictionary for the metrics function
-    if isinstance(names, (list, tuple)):
-        names = dict(enumerate(names))
-
-    tp, fp, p, r, f1, ap, unique_classes = ap_per_class(
-        tp=torch.cat([t for t in tp_list if t.numel() > 0]),
-        conf=torch.cat([c for c in conf_list if c.numel() > 0]),
-        pred_cls=torch.cat([c for c in cls_list if c.numel() > 0]),
-        target_cls=[item for sublist in tcls_list for item in sublist],
-        names=names
-    )
-    
-    ap50, ap_all = ap[:, 0], ap.mean(1)
-    return ap50.mean().item() * 100, ap_all.mean().item() * 100
+            print(labels_dir)
+            map50, map50_95 = eval_sub_process(out, image_name, labels_dir, nc)
+            print("mAP@.50: {:.4f}, mAP@.50:.95: {:.4f}".format(map50, map50_95))
 
 
 # --- Main Quantization Function ---
@@ -318,7 +304,6 @@ def quantization(args):
         for img, _, _, _ in tqdm(val_loader, desc="Calibrating"):
             quant_model(img.to(device).float() / 255.0)
         print("Calibration finished.")
-        quantizer.quant_model = quant_model
         quantizer.export_quant_config()
         print("Quantization config exported.")
         if finetune:
@@ -359,7 +344,7 @@ def quantization(args):
             print("Xmodel exported successfully.")
         else:
             print("Evaluating model performance...")
-            map50, map_50_95 = evaluate(quant_model, val_loader, data_config, detect_head)
+            evaluate(quant_model, val_loader, data_config, detect_head)
             print(f"\n--- Evaluation Results ({quant_mode} mode) ---")
             print(f"  mAP@.50    : {map50:.4f} %")
             print(f"  mAP@.50:.95: {map_50_95:.4f} %")
@@ -384,4 +369,20 @@ if __name__ == '__main__':
     print(f"-------- Start: {title} --------")
     quantization(args)
     print(f"-------- End: {title} --------")
-# python quant_test.py --quant_mode test --deploy --batch_size 1
+# python quant_test.py --quant_mode test --model_config models/yolov5s.yaml --model_path yolov5s_with_bg.pt
+# python quant_test.py --quant_mode calib --model_config models/yolov5s.yaml --model_path yolov5s_with_bg.pt
+# python quant_test.py --quant_mode test --subset_len 1 --batch_size 1 --deploy  --model_config models/yolov5s.yaml --model_path yolov5s_with_bg.pt
+
+'''
+vai_c_xir \
+  -x ./quant_output/yolov5s_with_bg.xmodel \
+  -a /opt/vitis_ai/compiler/arch/DPUCZDX8G/ZCU104/arch.json \
+  -o ./compiled \ 
+  -n yolov5s_with_bg
+
+  vai_c_xir \
+  -x ./quant_output/yolov5n_with_bg.xmodel \
+  -a /opt/vitis_ai/compiler/arch/DPUCZDX8G/ZCU104/arch.json \
+  -o ./compiled_with_bg_1600_n \
+  -n yolov5n_with_bg
+'''
